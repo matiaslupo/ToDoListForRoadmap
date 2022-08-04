@@ -12,7 +12,7 @@ namespace ApplicationUI
 {
     public partial class Form1 : Form
     {
-        private int logins = 0;
+
         public Form1()
         {
             InitializeComponent();
