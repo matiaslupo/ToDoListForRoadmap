@@ -1,0 +1,14 @@
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\ApplicationUI.exe.config
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\ApplicationUI.exe
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\ApplicationUI.pdb
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\ToDoList_Library.dll
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\ToDoList_Library.pdb
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.csproj.AssemblyReference.cache
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.csproj.SuggestedBindingRedirects.cache
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.Properties.Resources.resources
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.csproj.GenerateResource.cache
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.csproj.CoreCompileInputs.cache
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.csproj.CopyComplete
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.exe
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.pdb
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.MainForm.resources

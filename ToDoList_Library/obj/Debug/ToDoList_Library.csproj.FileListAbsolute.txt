@@ -1,0 +1,6 @@
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\bin\Debug\ToDoList_Library.dll
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\bin\Debug\ToDoList_Library.pdb
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.csproj.AssemblyReference.cache
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.csproj.CoreCompileInputs.cache
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.dll
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.pdb
