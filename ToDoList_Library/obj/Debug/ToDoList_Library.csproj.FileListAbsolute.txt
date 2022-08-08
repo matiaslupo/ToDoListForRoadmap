@@ -4,3 +4,8 @@ D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library
 D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.csproj.CoreCompileInputs.cache
 D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.dll
 D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.pdb
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\bin\Debug\Dapper.dll
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\bin\Debug\System.Data.SQLite.dll
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\bin\Debug\Dapper.xml
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\bin\Debug\System.Data.SQLite.xml
+D:\Projects\repos\ToDoListForRoadmap\ToDoList_Library\obj\Debug\ToDoList_Library.csproj.CopyComplete

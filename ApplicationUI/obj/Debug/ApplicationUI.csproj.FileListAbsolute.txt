@@ -12,3 +12,8 @@ D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.cspro
 D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.exe
 D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.pdb
 D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\obj\Debug\ApplicationUI.MainForm.resources
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\Database.db
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\System.Data.SQLite.dll
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\Dapper.dll
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\System.Data.SQLite.xml
+D:\Projects\repos\ToDoListForRoadmap\ApplicationUI\bin\Debug\Dapper.xml
