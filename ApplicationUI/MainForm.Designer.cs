@@ -60,6 +60,7 @@
             this.changeCategoryLabel = new System.Windows.Forms.Label();
             this.inventoryList = new System.Windows.Forms.ListBox();
             this.managementPanel = new System.Windows.Forms.Panel();
+            this.weightNum = new System.Windows.Forms.NumericUpDown();
             this.descriptionText = new System.Windows.Forms.TextBox();
             this.priorityCombo = new System.Windows.Forms.ComboBox();
             this.addNewButton = new System.Windows.Forms.Button();
@@ -68,13 +69,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.priorityNewTopicLabel = new System.Windows.Forms.Label();
+            this.weightLabel = new System.Windows.Forms.Label();
             this.categoryNewTopicLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.priorityList = new System.Windows.Forms.ListBox();
             this.categoryList = new System.Windows.Forms.ListBox();
-            this.weightLabel = new System.Windows.Forms.Label();
-            this.weightNum = new System.Windows.Forms.NumericUpDown();
             this.mainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.titlePicture)).BeginInit();
             this.roadmapPanel.SuspendLayout();
@@ -491,6 +491,32 @@
             this.managementPanel.TabIndex = 2;
             this.managementPanel.Visible = false;
             // 
+            // weightNum
+            // 
+            this.weightNum.BackColor = System.Drawing.Color.SlateBlue;
+            this.weightNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weightNum.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.weightNum.Location = new System.Drawing.Point(500, 353);
+            this.weightNum.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.weightNum.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.weightNum.Name = "weightNum";
+            this.weightNum.Size = new System.Drawing.Size(148, 29);
+            this.weightNum.TabIndex = 4;
+            this.weightNum.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.weightNum.Visible = false;
+            // 
             // descriptionText
             // 
             this.descriptionText.BackColor = System.Drawing.Color.SlateBlue;
@@ -585,6 +611,17 @@
             this.priorityNewTopicLabel.Text = "Priority";
             this.priorityNewTopicLabel.Visible = false;
             // 
+            // weightLabel
+            // 
+            this.weightLabel.AutoSize = true;
+            this.weightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weightLabel.Location = new System.Drawing.Point(502, 297);
+            this.weightLabel.Name = "weightLabel";
+            this.weightLabel.Size = new System.Drawing.Size(117, 37);
+            this.weightLabel.TabIndex = 1;
+            this.weightLabel.Text = "Weight";
+            this.weightLabel.Visible = false;
+            // 
             // categoryNewTopicLabel
             // 
             this.categoryNewTopicLabel.AutoSize = true;
@@ -640,43 +677,6 @@
             this.categoryList.Size = new System.Drawing.Size(257, 179);
             this.categoryList.TabIndex = 0;
             // 
-            // weightLabel
-            // 
-            this.weightLabel.AutoSize = true;
-            this.weightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weightLabel.Location = new System.Drawing.Point(502, 297);
-            this.weightLabel.Name = "weightLabel";
-            this.weightLabel.Size = new System.Drawing.Size(117, 37);
-            this.weightLabel.TabIndex = 1;
-            this.weightLabel.Text = "Weight";
-            this.weightLabel.Visible = false;
-            // 
-            // weightNum
-            // 
-            this.weightNum.BackColor = System.Drawing.Color.SlateBlue;
-            this.weightNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weightNum.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.weightNum.Location = new System.Drawing.Point(500, 353);
-            this.weightNum.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.weightNum.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.weightNum.Name = "weightNum";
-            this.weightNum.Size = new System.Drawing.Size(148, 29);
-            this.weightNum.TabIndex = 4;
-            this.weightNum.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.weightNum.Visible = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -686,9 +686,9 @@
             this.Controls.Add(this.closeButtonPicture);
             this.Controls.Add(this.minimizePictureButton);
             this.Controls.Add(this.mainPanel);
+            this.Controls.Add(this.roadmapPanel);
             this.Controls.Add(this.managementPanel);
             this.Controls.Add(this.inventoryPanel);
-            this.Controls.Add(this.roadmapPanel);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";

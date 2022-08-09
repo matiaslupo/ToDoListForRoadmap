@@ -33,6 +33,21 @@ namespace ApplicationUI
             mostDemandedList.DataSource = null;
             mostDemandedList.DataSource = controller.RequestTopics();
             mostDemandedList.DisplayMember = "DemandDisplay";
+
+            highestPriorityList.DataSource = null;
+            highestPriorityList.DataSource = controller.HighestPriorityTopics();
+            highestPriorityList.DisplayMember = "Description";
+
+            thisWeekTopicsList.DataSource = null;
+            thisWeekTopicsList.DataSource = controller.HighestPriorityTopics();
+            thisWeekTopicsList.DisplayMember = "Description";
+        }
+
+        private void WireUpRoadmapLists(int filterId = 0)
+        {
+            mostDemandedList.DataSource = null;
+            mostDemandedList.DataSource = controller.RequestTopics();
+            mostDemandedList.DisplayMember = "DemandDisplay";
         }
 
         private void WireUpManagementLists()
@@ -254,6 +269,12 @@ namespace ApplicationUI
 
         private void advancedFilterCombo_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int advancedFilter = (int)advancedFilterCombo.SelectedIndex;
+            if (advancedFilter < 0)
+            {
+                WireUpRoadmapLists();
+                return;
+            }
 
         }
 

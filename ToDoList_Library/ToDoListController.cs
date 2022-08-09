@@ -24,15 +24,39 @@ namespace ToDoList_Library
             LoadLevels();
         }
 
-        public List<TopicModel> RequestTopics(string sort = "None")
+        public List<TopicModel> RequestTopics(string sort = "None", int sortIndex = 0)
         {
-            if (sort == "None")
+            if (sort == "Category")
             {
-                return topics;
+                return topics.FindAll(topic => topic.Category == categories[sortIndex].Id);
             }
-            return null; //It never reaches here
+            if (sort == "Priority Level")
+            {
+                return topics.FindAll(topic => topic.PriorityLevel == priorityLevels[sortIndex].Id);
+            }
+            return topics;
         }
 
+        public List<TopicModel> HighestPriorityTopics(string sort = "None", int sortIndex = 0)
+        {
+            if (sort == "Category")
+            {
+                return SqliteDataAccess.LoadHighestPriorityTopics(sortIndex, sort);
+            }
+            if (sort == "Priority Level")
+            {
+                return SqliteDataAccess.LoadHighestPriorityTopics(sortIndex, sort);
+            }
+            return SqliteDataAccess.LoadHighestPriorityTopics();
+        }
+
+        public List<TopicModel> TopicsForThisWeek(string sort = "None", int sortIndex = 0)
+        {
+            List<TopicModel> aux = new List<TopicModel>();
+            for (int i = 0; i < 19; i++)
+                aux.Add(topics[i]);
+            return aux;
+        }
         public List<CategoryModel> RequestCategories()
         {
             return categories;
